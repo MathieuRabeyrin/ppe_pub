@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Proza+Libre&display=swap');
+
+:root {
+    --primary-color: #22254b;
+    --secondary-color: #373b69;
+    --tertiary-color: #fcf02d;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font: 1.6rem "Open Sans", sans-serif;
+    margin: 0;
+    background-color: var(--primary-color);
+}
+
+h1, h2, h3, h4, ul, p, figure {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1 {
+    font-family: 'Aladin', cursive;
+}
+
+h2, p, a, label, input {
+    font-family: 'Proza Libre', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #222;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button, input[type="submit"] {
+    padding: 0;
+    background-color: transparent;
+    font-size: inherit;
+    border: 0;
+}
+
+input,textarea {
+    border: 0;
+    outline: none;
+}
